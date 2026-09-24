@@ -1,0 +1,48 @@
+# Environments and Secrets
+.env
+.venv
+env/
+venv/
+ENV/
+*.secret
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+lib/
+lib64/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Datasets and Local Databases
+data/
+datasets/
+*.pcap
+spamassassin_corpus/
+cic_ids_2017/
+synthetic_phishing/
+
+# Vector Stores / FAISS Indexes
+faiss_index/
+*.index
+*.faiss
+
+# System Logs and Agent Outputs
+logs/
+reports/
+*.log
+
+# IDEs / Editor configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter Notebooks (if used for dataset exploration)
+.ipynb_checkpoints

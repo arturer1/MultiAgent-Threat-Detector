@@ -28,6 +28,21 @@ spamassassin_corpus/
 cic_ids_2017/
 synthetic_phishing/
 
+#Data Conversion scripts
+build_evaluation_tasks.py
+build_faiss_index.py
+check_model.py
+convert_ceas.py
+convert_enron.py
+convert_nazario.py
+evaluate_baselines.py
+evaluate_pipeline.py
+evaluation_results.csv
+generate_synthetic_emails.py
+parse_cic_ids.py
+metrics_tracker.py
+check_models.py
+
 # Vector Stores / FAISS Indexes
 faiss_index/
 *.index

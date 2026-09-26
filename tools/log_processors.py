@@ -13,7 +13,7 @@ def validate_and_normalize_log(file_path: str) -> List[Dict[str, Any]]:
     _, ext = os.path.splitext(file_path)
     
     if ext.lower() not in supported_extensions:
-        raise ValueError(f"Unsupported file format. Must be one of {supported_extensions}")[cite: 1]
+        raise ValueError(f"Unsupported file format. Must be one of {supported_extensions}")
 
     # Regex patterns for field extraction
     ip_pattern = re.compile(r'\b(?:[0-9]{1,3}\.){3}[0-9]{1,3}\b')

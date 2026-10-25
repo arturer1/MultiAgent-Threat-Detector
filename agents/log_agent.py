@@ -27,7 +27,7 @@ def log_analyzer_node(state: ThreatState) -> Dict[str, Any]:
     # Uses LLaMA 3.3-70B via the Groq API for contextual interpretation[cite: 1].
     llm = ChatGroq(
         temperature=0.1,
-        model_name="openai/gpt-oss-120b",
+        model_name="openai/gpt-oss-20b",
         groq_api_key=os.getenv("GROQ_API_KEY")
     )
     

@@ -50,7 +50,7 @@ def recommendation_node(state: ThreatState) -> Dict[str, Any]:
     # Employs the LLaMA 3.3-70B model accessible via the Groq API[cite: 1].
     llm = ChatGroq(
         temperature=0.1,
-        model_name="openai/gpt-oss-120b",
+        model_name="openai/gpt-oss-20b",
         groq_api_key=os.getenv("GROQ_API_KEY")
     )
 
